@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 
 
 x = np.linspace(-5, 5, 100)
-y = np.power(x, 2)
+y = np.power(x, 3)
 
 plt.plot(x, y)
 plt.show()
+
+print("second version")
